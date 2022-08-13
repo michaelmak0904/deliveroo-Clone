@@ -14,6 +14,7 @@ const FeaturedRow = ({ id, title, description }) => {
                 ...,
                 restaurants[]->{
                   ...,
+                  type->,
                   dishes[]->
                 }
               }[0]`, { id }
